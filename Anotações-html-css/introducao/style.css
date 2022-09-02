@@ -1,0 +1,67 @@
+body { /*todo o conteudo da tela*/
+    background: rgb(243, 243, 243);
+    background-image: ;
+    max-width: 900px; /* diminuir o tamanho do corpo, e colocando o max-, faz ele se adequar a qualquer tela */
+    margin: auto; /* deixando o margin em auto, ele vai ficar posicionado no meio da tela*/
+}
+
+
+
+#title, .Subtitle, .post_title {
+    color: rgb(56, 56, 56);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Subtitle {
+    
+    
+}
+
+#title {
+    text-align: center;
+}
+
+.post_profile {
+    border-radius: 10px ;
+   
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_image {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    width: 100%; /* em 100% ele vai respeitar o body*/
+    
+}
+
+.post {
+    background: #fff;
+    padding: 10px; /* espaçamento entre a borda e o texto */
+    border: 1px solid rgb(59, 59, 59); /* borda */
+    border-style: inherit; /* estilo da borda, pontilhamento por exemplo */
+    margin-bottom: 15px; /* espaçamento com a lateral da tela*/
+    border-radius: 10px; /* curvatura da borda*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.contacts_list {
+    list-style-type: none; /* remover o marcador (aquele pontinho) */
+    padding-left: 14px;
+}
+
+.contacts_list li a { /* selecionar apenas um item do bloco, no caso, o "li" */
+    text-decoration: none; /* tirar o sublinhamento*/
+    color: blue;
+}
+
